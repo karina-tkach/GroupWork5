@@ -35,7 +35,6 @@ namespace Lab_2_5_2
 
         public void Menu()
         {
-            Anishchenko io = new Anishchenko();
             List<Student> list = new List<Student>();
             bool b = true;
             while (b)
@@ -77,7 +76,7 @@ namespace Lab_2_5_2
                     case 4:
                         {
                             bool isValid = false;
-                            list = ReadData("data.txt", out isValid);
+                            list = ReadData("dataAn.txt", out isValid);
                             if(isValid)
                             {
                                 Console.WriteLine("Файл зчитано успішно");
@@ -108,7 +107,6 @@ namespace Lab_2_5_2
 
                 }
                 Console.ReadLine();
-                Console.Clear();
             }
         }
 

@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Collections.Generic;
+using Lab_2_5_2;
 
 namespace GroupWork5
 {
@@ -35,8 +36,8 @@ namespace GroupWork5
                         break;
                     case 3:
                         Console.WriteLine("Прiзвища студентiв, якi мають задовiльнi оцiнки i не одержують стипендiї:");
-                        //Anishchenko a = new Anishchenko();
-                       // a.InsertArrBeforeNum();
+                        Anishchenko a = new Anishchenko();
+                        a.Menu();
                         break;
                     case 4:
                         Console.WriteLine("Bмiст файлу:");

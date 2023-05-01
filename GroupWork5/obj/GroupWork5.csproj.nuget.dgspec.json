@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenochka\\source\\repos\\GroupWork5\\GroupWork5\\GroupWork5.csproj": {}
+    "C:\\Users\\Admin\\Source\\Repos\\GroupWork5\\GroupWork5\\GroupWork5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenochka\\source\\repos\\GroupWork5\\GroupWork5\\GroupWork5.csproj": {
+    "C:\\Users\\Admin\\Source\\Repos\\GroupWork5\\GroupWork5\\GroupWork5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenochka\\source\\repos\\GroupWork5\\GroupWork5\\GroupWork5.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\GroupWork5\\GroupWork5\\GroupWork5.csproj",
         "projectName": "GroupWork5",
-        "projectPath": "C:\\Users\\Lenochka\\source\\repos\\GroupWork5\\GroupWork5\\GroupWork5.csproj",
-        "packagesPath": "C:\\Users\\Lenochka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenochka\\source\\repos\\GroupWork5\\GroupWork5\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Source\\Repos\\GroupWork5\\GroupWork5\\GroupWork5.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Source\\Repos\\GroupWork5\\GroupWork5\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Lenochka\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,7 +45,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -58,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

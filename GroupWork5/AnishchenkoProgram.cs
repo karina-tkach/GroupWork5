@@ -53,13 +53,13 @@ namespace Lab_2_5_2
                         }
                     case 2:
                         {
-                            Console.WriteLine("Напишіть в форматі: Прізвище Ім'я По_батькові Стать День_нарождження:Місяць_Народження:Рік_Народження Оцінка_з_Математики Оцінка_з_Фізики Оцінка_з_Інформатики Розмір_стипендії");
+                            Console.WriteLine("Напишіть в форматі: Прізвище Ім'я По_батькові Стать День_нарождження.Місяць_Народження.Рік_Народження Оцінка_з_Математики Оцінка_з_Фізики Оцінка_з_Інформатики Розмір_стипендії");
                             string[] strarr = Console.ReadLine().Split(' ');
                             string surname = strarr[0];
                             string name = strarr[1];
                             string patronymic = strarr[2];
                             char sex = Convert.ToChar(strarr[3]);
-                            string[] date = strarr[4].Split(':');
+                            string[] date = strarr[4].Split('.');
                             DateTime dateOfBirth = new DateTime(int.Parse(date[2]), int.Parse(date[1]), int.Parse(date[0]));
                             char math = Convert.ToChar(strarr[5]);
                             char physics = Convert.ToChar(strarr[6]);
@@ -76,7 +76,7 @@ namespace Lab_2_5_2
                     case 4:
                         {
                             bool isValid = false;
-                            list = ReadData("dataAn.txt", out isValid);
+                            list = ReadData("data.txt", out isValid);
                             if(isValid)
                             {
                                 Console.WriteLine("Файл зчитано успішно");

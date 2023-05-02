@@ -36,12 +36,12 @@ namespace Lab_2_5_2
 
             public Student(string str)
             {
-                string[] strarr = str.Split(' ');
+                string[] strarr = str.Split(' ', StringSplitOptions.RemoveEmptyEntries);
                 this.surname = strarr[0];
                 this.name = strarr[1];
                 this.patronymic = strarr[2];
                 this.sex = Convert.ToChar(strarr[3]);
-                string[] date = strarr[4].Split(':');
+                string[] date = strarr[4].Split('.');
                 this.dateOfBirth = new DateTime(int.Parse(date[2]), int.Parse(date[1]), int.Parse(date[0]));
                 this.math = Convert.ToChar(strarr[5]);
                 this.physics = Convert.ToChar(strarr[6]);
@@ -51,7 +51,7 @@ namespace Lab_2_5_2
 
             public override string ToString()
             {
-                return $"{this.surname} {this.name} {this.patronymic} {this.sex} {this.dateOfBirth.Day}:{this.dateOfBirth.Month}:{this.dateOfBirth.Year} {this.math} {this.physics} {this.informatics} {this.scholarship}";
+                return $"{this.surname} {this.name} {this.patronymic} {this.sex} {this.dateOfBirth.Day}.{this.dateOfBirth.Month}.{this.dateOfBirth.Year} {this.math} {this.physics} {this.informatics} {this.scholarship}";
             }
         }
     }

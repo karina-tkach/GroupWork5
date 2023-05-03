@@ -13,7 +13,6 @@ namespace Lab_2_5_2
             public string surname;
             public string name;
             public string patronymic;
-
             public char sex;
             public DateTime dateOfBirth;
             public char math;

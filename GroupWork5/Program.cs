@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 using Lab_2_5_2;
+using lab5_2;
 
 namespace GroupWork5
 {

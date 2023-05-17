@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 using System.Collections.Generic;
 using System.IO;
 
-namespace lab5_2
+namespace GroupWork5
 {
     partial class Kysil
     {

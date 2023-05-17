@@ -32,7 +32,7 @@ namespace GroupWork5
                     case 2:
                         Console.WriteLine("Прiзвища студентiв, якi пропустили бiльше 2х iспитiв:");
                         Kysil k = new Kysil();
-                        k.Main();
+                        k.Mainn();
                         break;
                     case 3:
                         Console.WriteLine("Прiзвища студентiв, якi мають задовiльнi оцiнки i не одержують стипендiї:");

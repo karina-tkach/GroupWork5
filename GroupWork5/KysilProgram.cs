@@ -9,7 +9,7 @@ namespace lab5_2
 {
     partial class Kysil
     {
-        static void Main()
+        public void Mainn()
         {
             List<Student> students = ReadData("data.txt", out bool invalid);
             Menu(students);
